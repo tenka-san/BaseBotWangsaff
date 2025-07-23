@@ -1,0 +1,18 @@
+{
+  "name": "Yuukey De Zeppeli",
+  "version": "1.1.1",
+  "description": "Yuukey Is Peak",
+  "main": "index.js",
+  "type": "common.js",
+  "script": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@whiseysockets/baileys": "^6.7.18",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^0.27.2",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  } 
+}

@@ -26,8 +26,8 @@ async function lari() {
     syncFullHistory: true
   });
   if (!Klaien.authState.creds.registered) {
-    const number = await pertanyaan("");
-    const code = await Klaien.requestPairingCode(number.trim);
+    const number = await pertanyaan("Masukkan nomor anda di mulai dari 62 :\n");
+    const code = await Klaien.requestPairingCode(number, "YUKIPEDO");
     console.log(`Kode Anda : ${code}`);
   };
   store.bind = (Klaien.ev);

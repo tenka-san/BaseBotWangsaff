@@ -16,6 +16,7 @@
     "pino": "^9.5.0",
     "readline": "^1.3.0",
     "crypto": "latest",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "fetch": "latest"
   } 
 }

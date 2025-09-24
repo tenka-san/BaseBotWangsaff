@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "@whiseysockets/baileys": "^6.7.18",
+    "@whiseysockets/baileys": "github:tenka-san/WaBails",
     "@adiwajshing/keyed-db": "^0.2.4",
     "axios": "^0.27.2",
     "fs": "0.0.1-security",
